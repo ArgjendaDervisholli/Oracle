@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Mirjeta%20Bytyqi/Desktop/Projekti-MDHGJP/Faza2/XSLT/Kandidatet_xsl.xsl"?>
+<kandidatet>
+	<kandidati kId="k1" dataRegjistrimit="01-Jan-2018">
+		<emriK>Mirjeta</emriK>
+		<emriPrinditK>Shyqiri</emriPrinditK>
+		<mbiemriK>Bytyqi</mbiemriK>
+		<nrPersonalK>1170955761</nrPersonalK>
+		<telefoniK>049 362 999</telefoniK>
+		<emailK>mirjetabytyqi@gmail.com</emailK>
+		<adresaK>
+			<rrugaK>Sylejman Vokshi</rrugaK>
+			<qytetiK>Prishtine</qytetiK>
+			<zipkodiK>10000</zipkodiK>
+		</adresaK>
+		<moshaK>21</moshaK>
+		<ditelindjaK>28-Sep-1997</ditelindjaK>
+		<testimetK>
+			<LlojiTestimitK>
+				<dataK>10-Jan-2018</dataK>
+				<llojiK>Provues</llojiK>
+				<piketK>95</piketK>
+			</LlojiTestimitK>
+			<LlojiTestimitK>
+				<dataK>20-Jan-2018</dataK>
+				<llojiK>Real</llojiK>
+				<piketK>100</piketK>
+			</LlojiTestimitK>
+		</testimetK>
+		<aktivitetiK>Aktiv</aktivitetiK>
+	</kandidati>
+	<kandidati kId="k2" dataRegjistrimit="01-Jan-2018">
+		<emriK>Donjeta</emriK>
+		<emriPrinditK>Gani</emriPrinditK>
+		<mbiemriK>Brahimi</mbiemriK>
+		<nrPersonalK>170955770</nrPersonalK>
+		<telefoniK>049 258 666</telefoniK>
+		<emailK>donjetabrahimi@gmail.com</emailK>
+		<adresaK>
+			<rrugaK>Tringe Smajli</rrugaK>
+			<qytetiK>Prishtine</qytetiK>
+			<zipkodiK>10000</zipkodiK>
+		</adresaK>
+		<moshaK>22</moshaK>
+		<ditelindjaK>23-Oct-1996</ditelindjaK>
+		<testimetK>
+			<LlojiTestimitK>
+				<dataK>10-Jan-2018</dataK>
+				<llojiK>Provues</llojiK>
+				<piketK>100</piketK>
+			</LlojiTestimitK>
+			<LlojiTestimitK>
+				<dataK>20-Jan-2018</dataK>
+				<llojiK>Real</llojiK>
+				<piketK>100</piketK>
+			</LlojiTestimitK>
+		</testimetK>
+		<aktivitetiK>Aktiv</aktivitetiK>
+	</kandidati>
+	<kandidati kId="k3" dataRegjistrimit="01-Feb-2018">
+		<emriK>Gresa</emriK>
+		<emriPrinditK>Fadil</emriPrinditK>
+		<mbiemriK>Ibrahimi</mbiemriK>
+		<nrPersonalK>1340945770</nrPersonalK>
+		<telefoniK>049 345 566</telefoniK>
+		<emailK>gresaibrahimi@gmail.com</emailK>
+		<adresaK>
+			<rrugaK>Abedin Bujupi</rrugaK>
+			<qytetiK>Prishtine</qytetiK>
+			<zipkodiK>10000</zipkodiK>
+		</adresaK>
+		<moshaK>24</moshaK>
+		<ditelindjaK>21-Oct-1994</ditelindjaK>
+		<testimetK>
+			<LlojiTestimitK>
+				<dataK>10-Feb-2018</dataK>
+				<llojiK>Provues</llojiK>
+				<piketK>90</piketK>
+			</LlojiTestimitK>
+			<LlojiTestimitK>
+				<dataK>20-Feb-2018</dataK>
+				<llojiK>Real</llojiK>
+				<piketK>100</piketK>
+			</LlojiTestimitK>
+		</testimetK>
+		<aktivitetiK>JoAktiv</aktivitetiK>
+	</kandidati>
+	<kandidati kId="k4" dataRegjistrimit="15-Jun-2018">
+		<emriK>Ubejd</emriK>
+		<emriPrinditK>Nazmi</emriPrinditK>
+		<mbiemriK>Jolla</mbiemriK>
+		<nrPersonalK>1170654781</nrPersonalK>
+		<telefoniK>049 112 554</telefoniK>
+		<emailK>ubejdjolla@gmail.com</emailK>
+		<adresaK>
+			<rrugaK>Rruga B</rrugaK>
+			<qytetiK>Prishtine</qytetiK>
+			<zipkodiK>10000</zipkodiK>
+		</adresaK>
+		<moshaK>19</moshaK>
+		<ditelindjaK>28-Sep-1999</ditelindjaK>
+		<testimetK>
+			<LlojiTestimitK>
+				<dataK>20-Oct-2018</dataK>
+				<llojiK>Provues</llojiK>
+				<piketK>100</piketK>
+			</LlojiTestimitK>
+			<LlojiTestimitK>
+				<dataK>10-Dec-2018</dataK>
+				<llojiK>Real</llojiK>
+				<piketK>100</piketK>
+			</LlojiTestimitK>
+		</testimetK>
+		<aktivitetiK>JoAktiv</aktivitetiK>
+	</kandidati>
+</kandidatet>

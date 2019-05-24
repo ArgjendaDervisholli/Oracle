@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autoshkolla SYSTEM "autoshkolla.dtd">
+<autoshkolla>
+	<kandidatet >
+		<kandidati kId="k1" dataRegjistrimit="0-Jan-2018">
+			<emriK>Mirjeta</emriK>
+			<emriPrinditK>Shyqiri</emriPrinditK>
+			<mbiemriK>Bytyqi</mbiemriK>
+			<nrPersonalK>1170955761</nrPersonalK>
+			<telefoniK>049 362 999</telefoniK>
+			<emailK>mirjetabytyqi@gmail.com</emailK>
+			<adresaK>
+				<rrugaK>Sylejman Vokshi</rrugaK>
+				<qytetiK>Prishtine</qytetiK>
+				<zipkodiK>10000</zipkodiK>
+			</adresaK>
+			<moshaK>21</moshaK>
+			<ditelindjaK>28-Sep-1997</ditelindjaK>
+			<testimetK>
+				<LlojiTestimitK>
+					<dataK>10-Jan-2018</dataK>
+					<llojiK>Provues</llojiK>
+					<piketK>95</piketK>
+				</LlojiTestimitK>
+				<LlojiTestimitK>
+					<dataK>20-Jan-2018</dataK>
+					<llojiK>Real</llojiK>
+					<piketK>100</piketK>
+				</LlojiTestimitK>
+			</testimetK>
+			<aktivitetiK>Aktiv</aktivitetiK>
+			
+		</kandidati>
+		<kandidati kId="k2" dataRegjistrimit="01-Jan-2018">
+			<emriK>Donjeta</emriK>
+			<emriPrinditK>Gani</emriPrinditK>
+			<mbiemriK>Brahimi</mbiemriK>
+			<nrPersonalK>170955770</nrPersonalK>
+			<telefoniK>049 258 666</telefoniK>
+			<emailK>donjetabrahimi@gmail.com</emailK>
+			<adresaK>
+				<rrugaK>Tringe Smajli</rrugaK>
+				<qytetiK>Prishtine</qytetiK>
+				<zipkodiK>10000</zipkodiK>
+			</adresaK>
+			<moshaK>22</moshaK>
+			<ditelindjaK>23-Oct-1996</ditelindjaK>
+			<testimetK>
+				<LlojiTestimitK>
+					<dataK>10-Jan-2018</dataK>
+					<llojiK>Provues</llojiK>
+					<piketK>100</piketK>
+				</LlojiTestimitK>
+				<LlojiTestimitK>
+					<dataK>20-Jan-2018</dataK>
+					<llojiK>Real</llojiK>
+					<piketK>100</piketK>
+				</LlojiTestimitK>				
+			</testimetK>
+			<aktivitetiK>Aktiv</aktivitetiK>
+		</kandidati>
+		
+		<kandidati kId="k3" dataRegjistrimit="01-Feb-2018">
+			<emriK>Gresa</emriK>
+			<emriPrinditK>Fadil</emriPrinditK>
+			<mbiemriK>Ibrahimi</mbiemriK>
+			<nrPersonalK>1340945770</nrPersonalK>
+			<telefoniK>049 345 566</telefoniK>
+			<emailK>gresaibrahimi@gmail.com</emailK>
+			<adresaK>
+				<rrugaK>Abedin Bujupi</rrugaK>
+				<qytetiK>Prishtine</qytetiK>
+				<zipkodiK>10000</zipkodiK>
+			</adresaK>
+			<moshaK>24</moshaK>
+			<ditelindjaK>21-Oct-1994</ditelindjaK>
+			<testimetK>
+				<LlojiTestimitK>
+					<dataK>10-Feb-2018</dataK>
+					<llojiK>Provues</llojiK>
+					<piketK>90</piketK>
+				</LlojiTestimitK>
+				<LlojiTestimitK>
+					<dataK>20-Feb-2018</dataK>
+					<llojiK>Real</llojiK>
+					<piketK>100</piketK>
+				</LlojiTestimitK>
+			</testimetK>
+			<aktivitetiK>JoAktiv</aktivitetiK>
+		</kandidati>
+		
+		<kandidati kId="k4" dataRegjistrimit="15-Jun-2018">
+			<emriK>Ubejd</emriK>
+			<emriPrinditK>Nazmi</emriPrinditK>
+			<mbiemriK>Jolla</mbiemriK>
+			<nrPersonalK>1170654781</nrPersonalK>
+			<telefoniK>049 112 554</telefoniK>
+			<emailK>ubejdjolla@gmail.com</emailK>
+			<adresaK>
+				<rrugaK>Rruga B</rrugaK>
+				<qytetiK>Prishtine</qytetiK>
+				<zipkodiK>10000</zipkodiK>
+			</adresaK>
+			<moshaK>19</moshaK>
+			<ditelindjaK>28-Sep-1999</ditelindjaK>
+			<testimetK>
+				<LlojiTestimitK>
+					<dataK>20-Oct-2018</dataK>
+					<llojiK>Provues</llojiK>
+					<piketK>100</piketK>
+				</LlojiTestimitK>
+				<LlojiTestimitK>
+					<dataK>10-Dec-2018</dataK>
+					<llojiK>Real</llojiK>
+					<piketK>100</piketK>
+				</LlojiTestimitK>
+			</testimetK>
+			<aktivitetiK>JoAktiv</aktivitetiK>
+		</kandidati>
+	</kandidatet>
+	
+	
+	
+	<instruktoret >
+		<instruktori IId="i1">
+			<emriIns>
+				<emriI>Milot</emriI>
+				<emriPrinditI>Ardian</emriPrinditI>
+				<mbiemriI>Shaqiri</mbiemriI>
+			</emriIns>
+			<telefoniI>049 123 446</telefoniI>
+			<emailI>milotshaqiri@outlook.com</emailI>
+			<nrPersonalI>12345689</nrPersonalI>
+			<adresaIns>
+				<rrugaI>2 Korriku</rrugaI>
+				<qytetiI>Prishtine</qytetiI>
+				<zipkodiI>10000</zipkodiI>
+			</adresaIns>
+			<ditelindjaIns>01-Jan-1972</ditelindjaIns>
+		</instruktori>
+		
+		<instruktori IId="i2">
+			<emriIns>
+				<emriI>Urate</emriI>
+				<emriPrinditI>Agim</emriPrinditI>
+				<mbiemriI>Bekaj</mbiemriI>
+			</emriIns>
+			<telefoniI>049 123 222</telefoniI>
+			<emailI>uratebekaj@outlook.com</emailI>
+			<nrPersonalI>258147369</nrPersonalI>
+			<adresaIns>
+				<rrugaI>Agim Ramadani</rrugaI>
+				<qytetiI>Prishtine</qytetiI>
+				<zipkodiI>10000</zipkodiI>
+			</adresaIns>
+			<ditelindjaIns>03-Feb-1986</ditelindjaIns>
+		</instruktori>
+		
+		<instruktori IId="i3">
+			<emriIns>
+				<emriI>Melisa</emriI>
+				<emriPrinditI>Agim</emriPrinditI>
+				<mbiemriI>Bekaj</mbiemriI>
+			</emriIns>
+			<telefoniI>049 123 255</telefoniI>
+			<emailI>melisabekaj@outlook.com</emailI>
+			<nrPersonalI>456789123</nrPersonalI>
+			<adresaIns>
+				<rrugaI>Agim Ramadani</rrugaI>
+				<qytetiI>Prishtine</qytetiI>
+				<zipkodiI>10000</zipkodiI>
+			</adresaIns>
+			<ditelindjaIns>29-March-1990</ditelindjaIns>
+		</instruktori>		
+	</instruktoret>
+	
+	
+	
+	<ligjeruesit>
+		<ligjeruesi LId="l1">
+			<emriLigj>
+				<emriL>Njomza</emriL>
+				<emriPrinditL>Gezim</emriPrinditL>
+				<mbiemriL>Mehmeti</mbiemriL>
+			</emriLigj>
+			<telefoniL>044 153 456</telefoniL>
+			<emailL>njomzamehmeti@hotmail.com</emailL>
+			<nrPersonalL>123456789</nrPersonalL>
+			<adresaLigj>
+				<rrugaL>Nena Tereze</rrugaL>
+				<qytetiL>Prishtine</qytetiL>
+				<zipkodiL>10000</zipkodiL>
+			</adresaLigj>
+			<ditelindjaLigj>15-Jan-1996</ditelindjaLigj>
+		</ligjeruesi>
+		
+		<ligjeruesi LId="l2">
+			<emriLigj>
+				<emriL>Luan</emriL>
+				<emriPrinditL>Bujar</emriPrinditL>
+				<mbiemriL>Ismaili</mbiemriL>
+			</emriLigj>
+			<telefoniL>044 123 222</telefoniL>
+			<emailL>luanismaili@hotmail.com</emailL>
+			<nrPersonalL>23456781</nrPersonalL>
+			<adresaLigj>
+				<rrugaL>Sylejman Vokshi</rrugaL>
+				<qytetiL>Prishtine</qytetiL>
+				<zipkodiL>10000</zipkodiL>
+			</adresaLigj>
+			<ditelindjaLigj>02-Feb-1980</ditelindjaLigj>
+		</ligjeruesi>
+	</ligjeruesit>
+		
+	<Kategorite >
+		<Kategoria KategoriaID="kat1">
+			<emriKategorise>B</emriKategorise>
+			<Cmimi>160.00</Cmimi>
+			<Lista_Veturave>
+				<LlojiVetures>
+					<emriLL>Golf 6</emriLL>
+					<llojiLL>Golf</llojiLL>
+					<ngjyra>E hirte</ngjyra>
+				</LlojiVetures>
+				<LlojiVetures>
+					<emriLL>Golf 5</emriLL>
+					<llojiLL>Golf</llojiLL>
+					<ngjyra>E zeze</ngjyra>
+				</LlojiVetures>
+			</Lista_Veturave>
+			<pershkrimiKategorise>Per vetura</pershkrimiKategorise>
+		</Kategoria>
+		
+		<Kategoria KategoriaID="kat2">
+			<emriKategorise>D</emriKategorise>
+			<Cmimi>160.00</Cmimi>
+			<Lista_Veturave>
+				<LlojiVetures>
+					<emriLL>Volvo Ailsa B55</emriLL>
+					<llojiLL>Volvo</llojiLL>
+					<ngjyra>E zeze</ngjyra>				
+				</LlojiVetures>
+				<LlojiVetures>
+					<emriLL>Volvo B6</emriLL>
+					<llojiLL>Volvo</llojiLL>
+					<ngjyra>E bardhe</ngjyra>
+				</LlojiVetures>
+			</Lista_Veturave>
+			<pershkrimiKategorise>Per autobuse</pershkrimiKategorise>
+		</Kategoria>
+		
+		<Kategoria KategoriaID="kat3">
+			<emriKategorise>C</emriKategorise>
+			<Cmimi>200.00</Cmimi>
+			<Lista_Veturave>
+				<LlojiVetures>
+					<emriLL>Audi A3</emriLL>
+					<llojiLL>Scania</llojiLL>
+					<ngjyra>E zeze</ngjyra>
+				</LlojiVetures>
+				<LlojiVetures>
+					<emriLL>Volvo C6</emriLL>
+					<llojiLL>Volvo</llojiLL>
+					<ngjyra>E bardhe</ngjyra>
+				</LlojiVetures>
+			</Lista_Veturave>
+			<pershkrimiKategorise>Per kamione</pershkrimiKategorise>
+		</Kategoria>
+		
+		
+	</Kategorite>
+	
+	
+	<Mesimet>
+		<mesimi IId="i2 i3" KategoriaID="kat1"/>
+		<mesimi IId="i3" KategoriaID="kat2"/>
+		<mesimi IId="i1 i2 i3" KategoriaID="kat3"/>
+	</Mesimet>	
+	
+	<Ligjeratat>
+		<ligjerata LId="l1 l2" KategoriaID="kat1"/>
+		<ligjerata LId="l1 l2" KategoriaID="kat2"/>
+		<ligjerata LId="l1 l2" KategoriaID="kat3"/>
+	</Ligjeratat>
+	
+	<Oret>
+		<ora oid="o1" dataFillimit="01-Jan-2018" dataMbarimit="14-Jan-2018">
+			<kandidatiId kId="k1"/>
+			<kategoriaId katId="kat1"/>
+			<nrOreve>16</nrOreve>
+			<instruktoriId iId="i1"/>
+			<ligjeruesiId LId="l1
+			"/>
+		</ora>
+		<ora oid="o2" dataFillimit="01-Jan-2018" dataMbarimit="14-Jan-2018">
+			<kandidatiId kId="k2"/>
+			<kategoriaId katId="kat1"/>
+			<nrOreve>16</nrOreve>
+			<instruktoriId iId="i1"/>
+			<ligjeruesiId LId="l1"/>
+		</ora>
+		<ora oid="o3" dataFillimit="01-Feb-2018" dataMbarimit="15-Feb-2018">
+			<kandidatiId kId="k3"/>
+			<kategoriaId katId="kat1"/>
+			<nrOreve>16</nrOreve>
+			<instruktoriId iId="i3"/>
+			<ligjeruesiId LId="l2"/>
+		</ora>
+		<ora oid="o4" dataFillimit="20-Jun-2018" dataMbarimit="10-Jul-2018">
+			<kandidatiId kId="k4"/>
+			<kategoriaId katId="kat1"/>
+			<nrOreve>16</nrOreve>
+			<instruktoriId iId="i2"/>
+			<ligjeruesiId LId="l2"/>
+		</ora>
+	</Oret>
+	
+    <Pagesat>
+			<llojiPageses LLid="ll1">
+				<emri>Kesh</emri>
+			</llojiPageses>
+			<llojiPageses LLid="ll2">
+				<emri>Banke</emri>
+			</llojiPageses>
+    </Pagesat>	
+	
+	<Faturat>
+		<fatura nrFatures="f1" dataLeshimit="14-Jan-2018" ePerfunduar="Po">
+			<oraK oid="o1"/>
+			<shumaTotale>200.00</shumaTotale>
+			<llojiPagesesF LLid="ll2"/>
+		</fatura>
+		<fatura nrFatures="f2" dataLeshimit="14-Jan-2018" ePerfunduar="Po">
+			<oraK oid="o2"/>
+			<shumaTotale>210.00</shumaTotale>
+			<llojiPagesesF LLid="ll2"/>
+		</fatura>
+		<fatura nrFatures="f3" dataLeshimit="15-Feb-2018" ePerfunduar="Po">
+			<oraK oid="o3"/>
+			<shumaTotale>210.00</shumaTotale>
+			<llojiPagesesF LLid="ll2"/>
+		</fatura>
+		<fatura nrFatures="f4" dataLeshimit="14-Jan-2018" ePerfunduar="Po">
+			<oraK oid="o4"/>
+			<shumaTotale>210.00</shumaTotale>
+			<llojiPagesesF LLid="ll2"/>
+		</fatura>
+	</Faturat>
+	
+</autoshkolla>
+
+

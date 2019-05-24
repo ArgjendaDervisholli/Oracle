@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT autoshkolla (kandidatet, instruktoret, ligjeruesit, Kategorite, Mesimet, Ligjeratat, Oret, Pagesat, Faturat)>
+<!ELEMENT kandidatet (kandidati*)>
+<!ELEMENT kandidati (emriK, emriPrinditK, mbiemriK, nrPersonalK, telefoniK?, emailK?, adresaK?, moshaK, ditelindjaK, testimetK,aktivitetiK?)>
+
+<!ATTLIST kandidati kId ID #REQUIRED>
+<!ATTLIST kandidati dataRegjistrimit CDATA #REQUIRED>
+
+<!ELEMENT emriK (#PCDATA)>
+<!ELEMENT emriPrinditK (#PCDATA)>
+<!ELEMENT mbiemriK (#PCDATA)>
+<!ELEMENT nrPersonalK (#PCDATA)>
+<!ELEMENT telefoniK (#PCDATA)>
+<!ELEMENT emailK (#PCDATA)>
+<!ELEMENT adresaK (rrugaK, qytetiK, zipkodiK)>
+<!ELEMENT rrugaK (#PCDATA)>
+<!ELEMENT qytetiK (#PCDATA)>
+<!ELEMENT zipkodiK (#PCDATA)>
+<!ELEMENT moshaK (#PCDATA)>
+<!ELEMENT ditelindjaK (#PCDATA)>
+<!ELEMENT testimetK (LlojiTestimitK)*>
+<!ELEMENT LlojiTestimitK (dataK, llojiK, piketK)>
+<!ELEMENT dataK (#PCDATA)>
+<!ELEMENT llojiK (#PCDATA)>
+<!ELEMENT piketK (#PCDATA)>
+<!ELEMENT aktivitetiK (#PCDATA)>
+
+
+<!ELEMENT instruktoret (instruktori*)>
+<!ELEMENT instruktori (emriIns, telefoniI?, emailI?, nrPersonalI, adresaIns?, ditelindjaIns)>
+
+<!ATTLIST instruktori IId ID #REQUIRED>
+
+<!ELEMENT emriIns (emriI, emriPrinditI, mbiemriI)>
+<!ELEMENT emriI (#PCDATA)>
+<!ELEMENT emriPrinditI (#PCDATA)>
+<!ELEMENT mbiemriI (#PCDATA)>
+<!ELEMENT telefoniI (#PCDATA)>
+<!ELEMENT emailI (#PCDATA)>
+<!ELEMENT nrPersonalI (#PCDATA)>
+<!ELEMENT adresaIns (rrugaI, qytetiI,zipkodiI)>
+<!ELEMENT rrugaI (#PCDATA)>
+<!ELEMENT qytetiI (#PCDATA)>
+<!ELEMENT zipkodiI (#PCDATA)>
+<!ELEMENT ditelindjaIns (#PCDATA)>
+
+
+<!ELEMENT ligjeruesit (ligjeruesi*)>
+<!ELEMENT ligjeruesi (emriLigj, telefoniL?, emailL?, nrPersonalL, adresaLigj?, ditelindjaLigj?)>
+
+<!ATTLIST ligjeruesi LId ID #REQUIRED>
+
+<!ELEMENT emriLigj (emriL, emriPrinditL, mbiemriL)>
+<!ELEMENT emriL (#PCDATA)>
+<!ELEMENT emriPrinditL (#PCDATA)>
+<!ELEMENT mbiemriL (#PCDATA)>
+<!ELEMENT telefoniL (#PCDATA)>
+<!ELEMENT emailL (#PCDATA)>
+<!ELEMENT nrPersonalL (#PCDATA)>
+<!ELEMENT adresaLigj (rrugaL, qytetiL,zipkodiL)>
+<!ELEMENT rrugaL (#PCDATA)>
+<!ELEMENT qytetiL (#PCDATA)>
+<!ELEMENT zipkodiL (#PCDATA)>
+<!ELEMENT ditelindjaLigj (#PCDATA)>
+
+
+
+<!ELEMENT Kategorite (Kategoria*)>
+<!ELEMENT Kategoria (emriKategorise, Cmimi, Lista_Veturave, pershkrimiKategorise)>
+
+<!ATTLIST Kategoria KategoriaID ID #REQUIRED>
+
+<!ELEMENT emriKategorise (#PCDATA)>
+<!ELEMENT Cmimi (#PCDATA)>
+<!ELEMENT Lista_Veturave (LlojiVetures)+>
+<!ELEMENT LlojiVetures (emriLL, llojiLL, ngjyra)>
+<!ELEMENT emriLL (#PCDATA)>
+<!ELEMENT llojiLL (#PCDATA)>
+<!ELEMENT ngjyra (#PCDATA)>
+<!ELEMENT pershkrimiKategorise (#PCDATA)>
+
+<!ELEMENT Mesimet (mesimi+)>
+<!ELEMENT mesimi EMPTY>
+
+<!ATTLIST mesimi IId IDREFS #REQUIRED
+                 KategoriaID IDREF #REQUIRED>
+                  
+                  
+<!ELEMENT Ligjeratat (ligjerata+)>
+<!ELEMENT ligjerata EMPTY>
+
+<!ATTLIST ligjerata LId IDREFS #REQUIRED
+                    KategoriaID IDREF #REQUIRED>
+
+
+<!ELEMENT Oret (ora*)>
+<!ELEMENT ora (kandidatiId, kategoriaId, nrOreve, instruktoriId, ligjeruesiId)>
+
+<!ATTLIST ora oid ID #REQUIRED
+			  dataFillimit CDATA #REQUIRED
+              dataMbarimit CDATA #IMPLIED>
+              
+<!ELEMENT kandidatiId EMPTY>
+<!ELEMENT kategoriaId EMPTY>
+<!ELEMENT nrOreve (#PCDATA)>
+<!ELEMENT instruktoriId EMPTY>
+<!ELEMENT ligjeruesiId EMPTY>
+
+<!ATTLIST kandidatiId kId IDREF #REQUIRED>
+<!ATTLIST kategoriaId katId IDREF #REQUIRED>
+<!ATTLIST instruktoriId iId IDREF #REQUIRED>
+<!ATTLIST ligjeruesiId LId IDREF #REQUIRED>
+
+<!ELEMENT Pagesat (llojiPageses*)>
+<!ELEMENT llojiPageses (emri)>
+<!ELEMENT emri (#PCDATA)>
+
+<!ATTLIST llojiPageses LLid ID #REQUIRED>
+
+
+<!ELEMENT Faturat (fatura*)>
+<!ELEMENT fatura (oraK, shumaTotale, llojiPagesesF)>
+<!ELEMENT oraK EMPTY>
+<!ELEMENT shumaTotale (#PCDATA)>
+<!ELEMENT llojiPagesesF EMPTY>
+
+<!ATTLIST llojiPagesesF LLid IDREF #REQUIRED>
+<!ATTLIST fatura nrFatures ID #REQUIRED
+				 dataLeshimit CDATA #REQUIRED
+				 ePerfunduar CDATA #REQUIRED >
+<!ATTLIST oraK oid IDREF #REQUIRED>
+
